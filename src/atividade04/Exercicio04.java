@@ -64,6 +64,9 @@ public class Exercicio04 {
                     secondNumber = read.nextDouble();
                     System.out.printf("Total = %.2f \n", (firstNumber / secondNumber));
                 }
+                case 5 -> {
+                    System.out.println("Saindo...");
+                }
                 default -> System.out.println("Opcao Invalida!");
             }
         } while (option != 5);
